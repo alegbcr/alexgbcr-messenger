@@ -1,0 +1,73 @@
+[debug] [2021-05-06T05:53:03.507Z] ----------------------------------------------------------------------
+[debug] [2021-05-06T05:53:03.509Z] Command:       /Users/mkinnovations/.nvm/versions/node/v14.16.0/bin/node /Users/mkinnovations/.nvm/versions/node/v14.16.0/bin/firebase init
+[debug] [2021-05-06T05:53:03.509Z] CLI Version:   9.10.1
+[debug] [2021-05-06T05:53:03.509Z] Platform:      darwin
+[debug] [2021-05-06T05:53:03.509Z] Node Version:  v14.16.0
+[debug] [2021-05-06T05:53:03.510Z] Time:          Wed May 05 2021 23:53:03 GMT-0600 (Central Standard Time)
+[debug] [2021-05-06T05:53:03.510Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-05-06T05:53:03.515Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-06T05:53:03.515Z] > authorizing via signed-in user (alegonzb@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/mkinnovations/Desktop/Alexander/proyectos/JavaScript/react-js-projects/alegbcr-messenger
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using alegbcr-messenger. 
+[debug] [2021-05-06T05:53:05.932Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/alegbcr-messenger [none]
+[debug] [2021-05-06T05:53:06.325Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/alegbcr-messenger 200
+[debug] [2021-05-06T05:53:06.326Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/alegbcr-messenger {"projectId":"alegbcr-messenger","projectNumber":"359596223601","displayName":"alegbcr-messenger","name":"projects/alegbcr-messenger","resources":{"hostingSite":"alegbcr-messenger","storageBucket":"alegbcr-messenger.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-05-06T05:53:53.465Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-05-06T05:53:53.696Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2021-05-06T05:53:53.696Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"8.5.0","browserURL":"https://www.gstatic.com/firebasejs/8.5.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/8.5.0/firebase.tgz"},"live":{"version":"8.5","browserURL":"https://www.gstatic.com/firebasejs/live/8.5/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/8.5/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/8.5.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js","auth":"https://www.gstatic.com/firebasejs/8.5.0/firebase-auth.js","database":"https://www.gstatic.com/firebasejs/8.5.0/firebase-database.js","firestore":"https://www.gstatic.com/firebasejs/8.5.0/firebase-firestore.js","functions":"https://www.gstatic.com/firebasejs/8.5.0/firebase-functions.js","installations":"https://www.gstatic.com/firebasejs/8.5.0/firebase-installations.js","messaging":"https://www.gstatic.com/firebasejs/8.5.0/firebase-messaging.js","storage":"https://www.gstatic.com/firebasejs/8.5.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/8.5.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/8.5.0/firebase-remote-config.js","firestore.memory":"https://www.gstatic.com/firebasejs/8.5.0/firebase-firestore.memory.js"}}
+[info] ✔  Wrote build/index.html 
+[info] 
+[info] i  Detected a .git folder at /Users/mkinnovations 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=909196988&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-05-06T05:54:04.379Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"ab9b51aa9ddc48026603","redirect_uri":"http://localhost:9005","state":"909196988"}
+[debug] [2021-05-06T05:54:04.756Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Thu, 06 May 2021 05:54:04 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, Accept-Encoding, Accept, X-Requested-With","permissions-policy":"interest-cohort=()","etag":"W/\"16f1d4d5c90f3c73075f8055d7b42be9\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-3f088aa2.js gist.github.com/socket-worker-3f088aa2.js","x-github-request-id":"EE9C:33DC:C6173D:132AEC7:6093847C"}
+[debug] [2021-05-06T05:54:04.760Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2021-05-06T05:54:05.162Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2021-05-06T05:54:05.162Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"alegbcr","id":36647930,"node_id":"MDQ6VXNlcjM2NjQ3OTMw","avatar_url":"https://avatars.githubusercontent.com/u/36647930?v=4","gravatar_id":"","url":"https://api.github.com/users/alegbcr","html_url":"https://github.com/alegbcr","followers_url":"https://api.github.com/users/alegbcr/followers","following_url":"https://api.github.com/users/alegbcr/following{/other_user}","gists_url":"https://api.github.com/users/alegbcr/gists{/gist_id}","starred_url":"https://api.github.com/users/alegbcr/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/alegbcr/subscriptions","organizations_url":"https://api.github.com/users/alegbcr/orgs","repos_url":"https://api.github.com/users/alegbcr/repos","events_url":"https://api.github.com/users/alegbcr/events{/privacy}","received_events_url":"https://api.github.com/users/alegbcr/received_events","type":"User","site_admin":false,"name":"Alexander González","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":8,"public_gists":0,"followers":0,"following":2,"created_at":"2018-02-19T22:07:28Z","updated_at":"2021-05-06T05:54:04Z","private_gists":0,"total_private_repos":8,"owned_private_repos":8,"disk_usage":169526,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] ✔  Success! Logged into GitHub as alegbcr 
+[info] 
+[debug] [2021-05-06T05:55:26.431Z] >>> [apiv2][query] GET https://api.github.com/repos/alegbcr-messenger/actions/secrets/public-key type=owner
+[debug] [2021-05-06T05:55:26.757Z] <<< [apiv2][status] GET https://api.github.com/repos/alegbcr-messenger/actions/secrets/public-key 404
+[debug] [2021-05-06T05:55:26.757Z] <<< [apiv2][body] GET https://api.github.com/repos/alegbcr-messenger/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-05-06T05:55:34.045Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2021-05-06T05:55:34.353Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2021-05-06T05:55:34.354Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-05-06T05:55:39.710Z] >>> [apiv2][query] GET https://api.github.com/repos/n/actions/secrets/public-key type=owner
+[debug] [2021-05-06T05:55:40.176Z] <<< [apiv2][status] GET https://api.github.com/repos/n/actions/secrets/public-key 404
+[debug] [2021-05-06T05:55:40.177Z] <<< [apiv2][body] GET https://api.github.com/repos/n/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
